@@ -75,77 +75,6 @@ CREATE COLUMN TABLE "Common_Basis"."z_applications" (
 );
 
 
-insert into "Common_Basis"."z_applications" values('AC', 'Analytics Cloud', '', '', 'SAP', 'Mike Lutschaunig', 'CS', 'A', 'AN', 'Analytics Cloud', '', 'Analytics Cloud', '', '', '2017-01-01', '2019-12-31', 'Bi-Annual', '', '');
-insert into "Common_Basis"."z_applications" values('ADSI', 'ADSI','Manifest Documentation','ADSI','','','OP','D','CO','','','','','','2017-01-01','2019-12-31','','','');
-insert into "Common_Basis"."z_applications" values('ALM', 'ALM', 'Testing & Validation','HP ALM','HP','','OP','B','CR','','','','','','2017-01-01','2019-12-31','','','');
-
-insert into "Common_Basis"."z_applications" values('ARIBA1,Ariba,Indirect Procurement,ARIBA,SAP,Donna Christou,CS,C,PR,Ariba Cloud,,Ariba BOD,,,2017-01-01,2019-12-31,Bi-Annual,,
-
-insert into "Common_Basis"."z_applications" values('ARIBA2,ARIBA Buyer Direct,Procurement,SAP ARIBA Buyer Direct,SAP,Donna Christou,OP,C,PR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('ARIS,ARIS,Business Process Mgmt,SoftwareAG ARIS,Software AG,,CS,B,CR,,10.3,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('AUTOSYS,Autosys,Batch Job Mgmt,CA Autosys,Computer Associates,,OP,B,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('BART,Bartender,Label Templating,Bartender,,,OP,B,CO,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('BI,BI Portal,BW Web Reporting,SAP BI Portal 7.31,SAP,Jane VonKirchbach,OP,C,CR,,7.31,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('BOBJ,BOBJ,Analytics Reporting,SAP BOBJ 4.2,SAP,Jane VonKirchbach,OP,E,AN,JAVA,4.2,Retire,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('BODS','BODS','Data Services, Master Data Conversion','SAP BODS 4.2','SAP','David Langer','OP','D','CR','','4.2','','','', '2017-01-01','2019-12-31','','','');
-
-insert into "Common_Basis"."z_applications" values('BW,BW,,,SAP,Jane VonKirchbach,OP,C,AN,BW on HANA,7.5 SP2,BI on HANA,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('CONCUR,Concur,,,SAP,,CS,C,FI,Concur Cloud,,Concur Cloud,,,2017-01-01,2019-12-31,Bi-Annual,,
-insert into "Common_Basis"."z_applications" values('CONSOLE,Console,RF Management,SAP Console 7.1,SAP,,OP,E,CO,,7.1,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('CRANSOFT,Cransoft,Master Data Loading,Cransoft by BackOffice,BackOffice Associates,David Langer,OP,B,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('DB,Digital Boardroom,,,SAP,Mike Lutschaunig,CS,A,AN,Analytics Cloud,,Digital Boardroom,,,2017-01-01,2019-12-31,Bi-Annual,,
-insert into "Common_Basis"."z_applications" values('ECC,ECC,Core Transactional System,SAP ECC 6.0,SAP,Mike Lutschaunig,OP,C,ER,Suite on AnyDB,ERP6 EHP6,S/4 HANA,S/4 HANA 2009,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('EINVOICE,eInvoicing,,,Tulia,Rao Nakkella,OP,B,FI,,OB10,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('EP,Enterprise Portal,Web Browser,SAP Enterprise Portal 7.0,SAP,Jason Cava,OP,C,CR,JAVA,7.1,Retire,,End of Life by Y/E 2025,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('ETD,ETD,Enterprise Threat Detection,SAP ETD,SAP,Joel Lebo,OP,B,CS,HANA 2.0,1.0 SP6,HANA 2.0,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('FIM,FIM,Fin. Info. Mgmt for OTP,SAP FIM 10.0,SAP,,OP,B,FI,,10,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('GENTRAN,Serling Gentran,Integration Mgmt,IBM Serling Gentran,,,OP,D,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('GRC,GRC,Gov., Risk & Compliance,SAP GRC 10.0,SAP,Rao Nakkella; Jason Cava,OP,C,FI,Suite on AnyDB,10,S/4 HANA,,Upgrade Required for S/4,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('GTS,GTS,Import/Export Mgmt,SAP GTS 10.0,SAP,Ray Paoli,OP,C,CO,Suite on AnyDB,10,GTS S/4 HANA,11,Upgrade Required for S/4,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('GW,Gateway,,,SAP,Joel Lebo,OP,B,CR,Suite on AnyDB,7.4,S/4 HANA,,Upgrade Required for S/4,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('HYBRIS,Hybris,Customer Engagement,SAP Hybris 6.7.3,SAP,Jason Cava,CS,C,CO,Hybris Cloud,6.7.3,Hybris Cloud,,,2017-01-01,2019-12-31,Bi-Annual,,
-insert into "Common_Basis"."z_applications" values('IB,Integration Bus,Integration Mgmt,IBM Integration Bus 10.0.0.10,,,OP,D,CR,,10.0.0.10,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('IBP,IBP,Planning S&OP,SAP IBP 1808,SAP,Bob Miller,CS,C,PL,IBP Cloud,1811,IBP Cloud,,,2017-01-01,2019-12-31,Bi-Annual,,
-insert into "Common_Basis"."z_applications" values('IDM,IDM,Identity Management,SAP IDM 8.0,SAP,Nik Patel,OP,B,SE,JAVA,8.2,,8.2,Replaces CUA,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('IERP,iERP,HANA Sidecar,SAP iERP 2.0,SAP,Joseph Caruso,OP,C,CR,,2,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('IS,Information Steward,,,SAP,David Langer; Karla Maguire,OP,C,CR,,4.1 SP10,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('JAM,JAM for IBP,,,SAP,Bob Miller,CS,C,CR,IBP Cloud,1811,,,,2017-01-01,2019-12-31,Bi-Annual,,
-insert into "Common_Basis"."z_applications" values('JAWS,JAWS,Batch Job Analytics,Termasoft JAWS,Termasoft,,OP,B,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('KNOA,KNOA,,,SAP,,OP,E,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('LRS,LRS,Output/Printer Mgmt,LRS,,,OP,B,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('MDG','MDG','Master Data Hub','SAP MDG 8.0','SAP','Rich Gross','OP','C','MG','Suite on HANA','8','MDG S/4 HANA','SAP MDG on S/4 HANA 1809','Upgrade Required for S/4','2017-01-01','2019-12-31','Annual','','');
-insert into "Common_Basis"."z_applications" values('MULESOFT,MuleSoft,Integration Mgmt,MuleSoft,Mulesoft,,OP,D,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('NLS,NLS,Near Line Storage for ERP BI,SAP NLS,SAP,Jane VonKirchbach,OP,B,AN,,16.1,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('OEGATE,Oracle eGate,Integration Mgmt,Oracle eGate,Oracle,,OP,D,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('ONAPSIS,Onapsis,,,Onapsis,Joel Lebo,OP,B,CS,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('OPENTEXT,OpenText,Imaging & Archiving,OpenText,SAP,Leslie Meadows,EX,C,CR,On Prem Exension,16,On Prem Exension,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('PCM,PCM,Operational Transfer Pricing,SAP PCM 10.0,SAP,Jim Schwaninger,OP,C,FI,JAVA,,Retire,,Retiring,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('PI,PI,Integration Mgmt,SAP PI 7.1 EHP1,SAP,Bill Waenke,OP,D,CR,Suite on AnyDB,7.1 EHP1,PI/PO,,Upgrade Required for S/4,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('PPM,PPM,Project & Portfolio Management,SAP PPM 6.1,SAP,Angie Walsh,OP,C,CR,Suite on AnyDB,6.1,PPM S/4 HANA,,PPM is native in S/4,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('PRIME,PRIME,Customer Engagement,PRIME,Pfizer,Jason Cava,OP,C,CO,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('PX,Paymetrics Xipay,Credit Card Processing,Paymetrics Xipay,Paymetrics,,OP,B,FI,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('READSOFT,Readsoft,e-Invoicing Mgmt,ReadSoft,SAP,Raj Hase,EX,C,FI,ECC Extension,5.8 SP1,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('RIGHTFAX,RightFax,Fax Output,RightFax,,,OP,B,FI,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SAPGUI,SAP GUI,,,SAP,,OP,E,CR,,7.3,,7.5,Upgrade Required for S/4,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SAPUIM,SAP UI Masking,,,SAP,David Langer,OP,B,CR,Suite Extension,,Suite Extension,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SC,Service Center,Ticket, Requests, Change Mgmt,HP Service Center,HP,,OP,B,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SCM,SCM/APO,,,SAP,Bob Miller,OP,C,PL,Suite on AnyDB,7,IBP Cloud,,End of Life by Y/E 2025,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SCP,SCP,,,SAP,Drew Nurenberg,CP,C,CR,Neo,Neo,Cloud Foundry,,,2017-01-01,2019-12-31,Quarterly,,
-insert into "Common_Basis"."z_applications" values('SDS,SDS,,,SAP,Joel Lebo,OP,B,CS,HANA 2.0,1.0 SP6,HANA 2.0,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SEAL,Seal Systems,Packaging Documentation,Seal Systems,,,OP,B,CO,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SF,Success Factors,,,SAP,Steve Freed,CS,B,MG,Success Factors Cloud,,Success Factors Cloud,,,2017-01-01,2019-12-31,Bi-Annual,,
-insert into "Common_Basis"."z_applications" values('SLAN,SLAN,SAP Lease Accounting by Nakisa,SLAN 4.1,SAP,Raj Hase,OP,C,FI,On Prem Exension,4.1,On Prem Exension,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SLD,SLD,System Administration,SAP SLD 7.1,SAP,,OP,B,CR,,7.1,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SLT,SLT,,,SAP,Scott Groth,OP,D,BA,HANA,,HANA 2.0,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SMP3,SMP3,,,SAP,Steve Meisner,OP,B,CR,JAVA,3,Retire,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('SOLMAN,Solution Manager,System Administration,SAP Solution Manager 7.2,SAP,Joel Lebo,OP,B,CR,Suite on HANA,7.2,S/4 HANA,,,2017-01-01,2019-12-31,Annual,,
-insert into "Common_Basis"."z_applications" values('TDF,TDF,,,SAP,Raj Hase,OP,B,FI,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('TREX,TREX,SAP Search Engine,SAP TREX 7.1,SAP,,OP,B,CR,,7.1,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('UPERFORM,uPerform,eLearning,SAP uPerform,Ancile,,OP,E,CR,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('VERTEX,Vertex,Sales & Use Tax Calculator,Vertex,Vertex,Raj Hase,OP,C,FI,,6,,7,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('VVP,Vocollect Voice Pick,Dist. Voice Picking,Vocollect Voice Pick,,,OP,B,CO,,,,,,2017-01-01,2019-12-31,,,
-insert into "Common_Basis"."z_applications" values('WAS,WAS,Web Application Server,SAP WAS 7.0,SAP,Matt Smith,OP,B,CR,Suite on AnyDB,6.4,Retire,,End of Life,2017-01-01,2019-12-31,,,
-
 CREATE COLUMN TABLE "Common_Basis"."z_event" ( 
 	ID BIGINT NOT NULL primary key GENERATED BY DEFAULT AS IDENTITY,
 	EventType VARCHAR(255),
@@ -167,10 +96,6 @@ CREATE COLUMN TABLE "Common_Basis"."z_capabilities" (
 	Applications_ID VARCHAR(255),
 	FOREIGN KEY(Applications_ID) REFERENCES "Common_Basis"."z_applications" ("APPLICATION_ID") 
 );
-insert into "Common_Basis"."z_capabilities" (capability, capabilityowner, capabilitystatus, applications_id) values('MDG-F','Nakkella, Rao','Active','MDG');
-insert into "Common_Basis"."z_capabilities" (capability, capabilityowner, capabilitystatus, applications_id) values('MDG-M','Walsh, Angie','Active','MDG');
-insert into "Common_Basis"."z_capabilities" (capability, capabilityowner, capabilitystatus, applications_id) values('MDG-S','Jajodia, Amit','Active','MDG');
-insert into "Common_Basis"."z_capabilities" (capability, capabilityowner, capabilitystatus, applications_id) values('MDG-C','Inactive','Inactive','MDG');
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 var oModel = new sap.ui.model.json.JSONModel();
